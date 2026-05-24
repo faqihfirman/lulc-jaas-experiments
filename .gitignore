@@ -10,8 +10,7 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Model artifacts (binary, large — track config.json saja)
-models/**/*.pkl
+# Model artifacts
 models/**/*.joblib
 
 # Generated outputs
