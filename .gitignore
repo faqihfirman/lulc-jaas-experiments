@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model artifacts (binary, large — track config.json saja)
+models/**/*.pkl
+models/**/*.joblib
+
+# Generated outputs
+data/output/
+data/processed/
+
+# Environment
+.env
+*.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# Agents
+.claude/
+Claude.MD
